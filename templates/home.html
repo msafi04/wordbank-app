@@ -1,0 +1,28 @@
+<!-- templates/home.html -->
+
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title%}
+
+{% block content %}
+{% if user.is_authenticated %}
+    Hello {{user.username}}!
+    <div class="jumbotron">
+        <h1 class="display-4">My Word Bank</h1>
+        <p class="lead">This is my personal Word Bank and Book List website built with Django.</p> <p class="lead">
+        <a class="btn btn-primary btn-lg" href="{% url 'word_list' %}"
+        role="button">View All Words</a> </p>
+    </div>
+    <p><a href="{% url 'logout' %}">Log Out</a></p>
+{% else %}
+    <p> You are not logged in</p>
+    <div class="jumbotron">
+        <h1 class="display-4">My Word Bank</h1>
+        <p class="lead">This is my personal Word Bank and Book List website built with Django.</p> <p class="lead">
+        <a class="btn btn-primary btn-lg" href="{% url 'word_list' %}"
+        role="button">View All Words</a> </p>
+    </div>
+    <a href="{% url 'login' %}">Log In</a> |
+    <a href="{% url 'signup' %}">Sign Up</a>
+{% endif %}
+{% endblock content %}

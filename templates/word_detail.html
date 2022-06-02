@@ -1,0 +1,17 @@
+<!-- templates/word_detail.html -->
+
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="word-entry">
+        <h2 style="color:#f073d7">{{ object.title }}</h2>
+        <p><span style="font-size: 50%" class="text-muted">by {{ object.author }} | {{ object.date }}</p></span>
+        <p><h6>Definition:</h6>{{ object.body }}</p>
+    </div>
+    {% if object.author == request.user %}
+        <p><a href="{% url 'word_edit' word.pk %}">Edit</a> |
+            <a href="{% url 'word_delete' word.pk %}">Delete</a>
+        </p>
+    {% endif %}
+        <p>Back to <a href="{% url 'word_list' %}">All Words</a></p> 
+{% endblock content %}

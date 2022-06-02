@@ -1,0 +1,46 @@
+<!-- templates/word_list.html -->
+
+{% extends 'base.html' %}
+
+{% block title %}My Word Bank{% endblock title %}
+
+{% block content %}
+<head>
+    <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th {
+        background-color: #04AA6D;
+        color: white;
+    }
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #f2f2f2;;
+    }
+    </style>
+</head>
+    <h1 style="text-align:center">My Word Bank</h1>
+    <table>
+        <tr>
+            <th>Words</th>
+            <th>Meaning</th>
+            <th>Created On</th>
+        </tr>
+        {% for word in object_list %}
+        <tr>
+            <td><a href="{% url 'word_detail' word.pk %}">{{ word.title }}</a></td>
+            <td>{{ word.body }}</td>
+            <td><span class="text-muted">{{ word.date }}</span></td>
+        </tr>
+    <br />
+    {% endfor %}
+</table>
+{% endblock content %}
