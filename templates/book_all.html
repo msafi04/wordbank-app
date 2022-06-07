@@ -1,0 +1,82 @@
+<!-- templates/book_all.html copy of word_list.html-->
+
+{% extends 'base.html' %}
+
+{% block title %}My Books List{% endblock title %}
+
+{% block content %}
+<style>
+    table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    }
+    th {
+        background-color: #04AA6D;
+        color: white;
+    }
+    td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+</style>
+<div class="row">
+    <table class="table">
+        <thead>
+        <tr>
+            <th rowspan="1" colspan="4">My Books List</th>
+        </tr>
+        <tr>
+            <th rowspan="2" colspan="1">S. No.</th>
+            <th rowspan="2" colspan="1">Book Name</th>
+            <th rowspan="2" colspan="1">Author Name</th>
+            <th rowspan="2" colspan="1">Finished On</th>
+        </tr>
+        </thead>
+        {% for book in book_objects %}
+        <tbody>
+        <tr></tr>
+        <tr>
+            <td class="block" style="width:auto">{{ forloop.counter }}</td>
+            <td><a href="{% url 'book_detail' book.pk %}">{{ book.book_name.title }}</a></td>
+            <td><a>{{ book.book_author.title }}</a></td>
+            <td><span class="text-muted">{{ book.date_finished }}</span></td>
+        </tr>
+    </tbody>
+    <br />
+    {% endfor %}
+    </table>
+    {% block pagination %}
+    <!-- Pagination -->
+    {% if is_paginated %}
+        <nav aria-label="Page navigation conatiner">
+        <ul class='pagination justify-content-center'>
+            {% if page_obj.has_previous %}
+                <li class="page-item disabled">
+                    <a href='{% url "book_all" %}?page={{ page_obj.previous_page_number }}'>Previous </a>
+                </li>
+            {% endif %}
+
+            <li class="page-item">
+                <span class='mx-4'>
+                Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}
+            </span>
+            </li>
+
+            {% if page_obj.has_next %}
+                <li class="page-item">
+                    <a href='{% url "book_all" %}?page={{ page_obj.next_page_number }}' > Next</a>
+                </li>
+            {% endif %}
+        </ul>
+        </nav>
+    {% endif %}
+    <!-- END Pagination -->
+    {% endblock %}
+</div>
+{% endblock content %}

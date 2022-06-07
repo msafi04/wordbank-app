@@ -1,13 +1,13 @@
-<!-- templates/word_new.html -->
+<!-- templates/book_new.html -->
 
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>Add New Word</h1>
+    <h1>Add New Book</h1>
     <form action="" method="post">
         {% csrf_token %}
         {{ form.as_p }}
         <button class="btn btn-success ml-2" type="submit">Save</button> 
-        <a href="{% url 'word_list' %}" class="btn btn-secondary">Cancel</a> <!-- click cancel to return to word_list-->
+        <a href="{% url 'book_all' %}" class="btn btn-secondary">Cancel</a> <!-- click cancel to return to book_list-->
     </form>
 {% endblock content %}

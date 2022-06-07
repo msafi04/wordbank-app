@@ -6,23 +6,23 @@
 
 {% block content %}
 {% if user.is_authenticated %}
-    Hello {{user.username}}!
+    Hello {{ user.username.title }}!
     <div class="jumbotron">
         <h1 class="display-4">My Word Bank</h1>
-        <p class="lead">This is my personal Word Bank and Book List website built with Django.</p> <p class="lead">
-        <a class="btn btn-primary btn-lg" href="{% url 'word_list' %}"
-        role="button">View All Words</a> </p>
+        <p class="lead">This is my personal Word Bank and Book Read List website built with Django.</p> <p class="lead">
+        <a class="btn btn-primary btn-lg" href="{% url 'word_list' %}" role="button">View All Words</a> </p>
+        <a class="btn btn-primary btn-lg" href="{% url 'book_all' %}" role="button">View All Books</a> </p>
+        <p><a href="{% url 'logout' %}">Log Out</a></p>
     </div>
-    <p><a href="{% url 'logout' %}">Log Out</a></p>
 {% else %}
-    <p> You are not logged in</p>
+    <p> You are not logged in. Please login using the username and password to add/update entries</p>
     <div class="jumbotron">
         <h1 class="display-4">My Word Bank</h1>
         <p class="lead">This is my personal Word Bank and Book List website built with Django.</p> <p class="lead">
-        <a class="btn btn-primary btn-lg" href="{% url 'word_list' %}"
-        role="button">View All Words</a> </p>
+        <a class="btn btn-primary btn-lg" href="{% url 'word_list' %}" role="button">View All Words</a> </p>
+        <a class="btn btn-primary btn-lg" href="{% url 'book_all' %}" role="button">View All Books</a> </p>
+        <a href="{% url 'login' %}">Log In</a> |
+        <a href="{% url 'signup' %}">Sign Up</a>
     </div>
-    <a href="{% url 'login' %}">Log In</a> |
-    <a href="{% url 'signup' %}">Sign Up</a>
 {% endif %}
 {% endblock content %}
