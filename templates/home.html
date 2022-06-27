@@ -1,0 +1,53 @@
+<!-- templates/home.html -->
+
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title%}
+
+{% block content %}
+
+<style>
+.disabled {
+    pointer-events: none;
+    cursor: default;
+  }
+</style>
+
+{% if user.is_authenticated %}
+    <h5>Hello {{ user.username.title }}!</h5>
+    <div class="jumbotron" style="font-family:'Times New Roman'">
+        <h1 class="display-4">My Word Bank</h1>
+        <p class="lead">This is a project to learn Django, this webapps has a english word journal, a reading book list, a english dictionary using PyDictionary package
+            and a fun riddles page which asks a random riddle from a json file.
+        </p> 
+        <p class="lead">There is a Search functionality implemented for searching keywords from the words and the book list stored in the database.</p>
+        <p class="lead">The user must login to enter new words/book list as well as to edit the entries, also only logged in users can access riddles and dictionary pages however
+            any user can view the words journal and the book list.
+        </p>
+        <p class="lead">
+        <a class="btn btn-primary btn-lg" href="{% url 'word_list' %}" role="button">View All Words</a> </p>
+        <a class="btn btn-primary btn-lg" href="{% url 'book_all' %}" role="button">View All Books</a> </p>
+        <a class="btn btn-primary btn-lg" href="{% url 'riddles/riddle_list' %}" role="button">Answer a Riddle</a> </p>
+        <a class="btn btn-primary btn-lg" href="{% url 'dictionary/dict_result' %}" role="button">Go to Dictionary</a> </p>
+        <p><a href="{% url 'logout' %}">Log Out</a></p>
+    </div>
+{% else %}
+    <p> You are not logged in. Please login using the username and password to add/update entries</p>
+    <div class="jumbotron" style="font-family:'Times New Roman'">
+        <h1 class="display-4">My Word Bank</h1>
+        <p class="lead">This is a project to learn Django, this webapps has a english word journal, a reading book list, a english dictionary using PyDictionary package
+            and a fun riddles page which asks a random riddle from a json file.
+        </p> 
+        <p class="lead">The user must login to enter new words/book list as well as to edit the entries, also only logged in users can access riddles and dictionary pages however
+            any user can view the words journal and the book list.
+        </p>
+        <p class="lead">
+        <a class="btn btn-primary btn-lg" href="{% url 'word_list' %}" role="button">View All Words</a> </p>
+        <a class="btn btn-primary btn-lg" href="{% url 'book_all' %}" role="button">View All Books</a> </p>
+        <a class="btn btn-primary btn-lg" href="{% url 'riddles/riddle_list' %}" role="button">Answer a Riddle</a> </p>
+        <a class="btn btn-primary btn-lg" href="{% url 'dictionary/dict_result' %}" role="button">Go to Dictionary</a> </p>
+        <a href="{% url 'login' %}">Log In</a> |
+        <a href="{% url 'signup' %}" class="disabled">Sign Up</a>
+    </div>
+{% endif %}
+{% endblock content %}

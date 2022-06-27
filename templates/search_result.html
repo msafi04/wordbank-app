@@ -1,0 +1,24 @@
+<!-- templates/search_results.html -->
+
+{% extends 'base.html' %}
+
+{% block title %}Search Result{% endblock title %}
+
+{% block content %}
+    <centre>
+        <ul>
+            {% if context_list %}
+                <h1>You Searched For..</h1>
+                {% for object in context_list %}
+                    {% if object.title %}
+                        <li>Words - <a href="{% url 'word_detail' object.pk %}">{{ object.title.title }}</a></li>
+                    {% elif object.book_name %}
+                        <li>Books - <a href="{% url 'book_detail' object.pk %}">{{ object.book_name.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            {% else %}
+            <h1>Please enter a Search Word or Book Name..</h1>
+            {% endif %}
+        </ul>
+    </centre>
+{% endblock content %}

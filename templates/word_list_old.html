@@ -1,0 +1,33 @@
+<!-- templates/word_list.html -->
+
+{% extends 'base.html' %}
+
+{% block title %}My Word Bank{% endblock title %}
+
+{% block content %}
+
+{% for word in object_list %}
+    <div class="card">
+        <div class="card-header">
+            <a href="{% url 'word_detail' word.pk %}"><span class="font-weight-bold">{{ word.title }}</span> </a> &middot; 
+            <span class="text-muted">by {{ word.author }} | {{ word.date }}</span>
+        </div>
+        <div class="card-body">
+            {{ word.body }}
+        </div>
+        {% if word.author == request.user %}
+            <div class="card-footer text-center text-muted">
+                <a href="{% url 'word_edit' word.pk %}">Edit</a> |
+                <a href="{% url 'word_delete' word.pk %}">Delete</a>
+            </div>
+        {% endif %}
+    </div> 
+    <div class="card-footer">
+        {% for comment in word.comments.all %} 
+            <p><span class="font-weight-bold">{{ comment.author }} &middot;</span>
+            {{ comment }} </p>
+        {% endfor %}
+    </div> -->
+    <br />
+{% endfor %}
+{% endblock content %}

@@ -1,0 +1,14 @@
+<!-- templates/word_edit.html -->
+
+{% extends 'base.html' %}
+
+{% block title %}Word Update{% endblock title %}
+
+{% block content %} 
+    <h1>Edit</h1>
+    <form action="" method="post">{% csrf_token %} 
+        {{ form.as_p }}
+        <button class="btn btn-info ml-2" type="submit">Update</button>
+        <a href="{% url 'word_list' %}" class="btn btn-secondary">Cancel</a> 
+    </form>
+{% endblock content %}

@@ -1,0 +1,63 @@
+<!-- templates/dictionary/dict_result.html -->
+
+<html lang="en">
+    {% extends 'base.html' %}
+
+    {% block title %}Dictionary{% endblock %}
+    <head>
+        <style>
+            .center {
+                margin: auto;
+                width: 60%;
+                border: 3px solid #73AD21;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    {% block content %}
+    <div>
+        <div class="container my-5">
+            <h1 class="text-center text-muted">
+                English Dictionary using Django
+            </h1>
+            <div class="row mt-5">
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-8">
+                    <form class="form-inline my-2 my-lg-0" method=GET action="">
+                        <div class="input-group mb-3">
+                            {% csrf_token %}
+                            <span class="input-group-text" id="basic-addon3">Search Dictionary</span>
+                            <input type="text" class="form-control" name="search_query" id="basic-url" size="70" aria-describedby="inputGroup-sizing-default" required>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary btn-block" style="width:710px;height:40px" type="submit">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        {% if object_list %}
+            <div class="search-result" style="text-align: center">
+                <h4>Dictionary Result for: <i style="color:darkgreen;">{{ object_list.word }}</i></h4>
+                <p><h6>Definition:</h6> </p>
+                {% if object_list.meaning %}
+                    {% if object_list.meaning.Noun %}
+                        <p><b><i>Noun: </i></b>{{ object_list.meaning.Noun|join:", " }}</p>
+                    {% elif object_list.meaning.Verb %}
+                        <p><b><i>Verb: </i></b>{{ object_list.meaning.Verb|join:", " }}</p>
+                    {% elif object_list.meaning.Adjective %}
+                        <p><b><i>Verb: </i></b>{{ object_list.meaning.Adjective|join:", " }}</p>
+                    {% endif %}
+                {% endif %}
+                {% if object_list.synonym %}
+                    <p><h5>Synonym: </b>{{ object_list.synonym|join:", " }}</h5>
+                {% endif %}
+                {% if object_list.antonym %}
+                    <p><h5>Antonym: </b>{{ object_list.antonym|join:", " }}</h5>
+                {% endif %}
+            </div>
+        {% endif %}
+    </div>
+    {% endblock %}

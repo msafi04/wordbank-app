@@ -1,0 +1,812 @@
+[
+	{
+		"id": "0",
+		"question": "Which letter of the alphabet has the most water?",
+		"answer": "C"
+	},
+	{
+		"id": "1",
+		"question": "What kind of dog keeps the best time?",
+		"answer": "Watchdog"
+	},
+	{
+		"id": "2",
+		"question": "What time of day, when written in a capital letters, is the same forwards, backwards and upside down?",
+		"answer": "Noon"
+	},
+	{
+		"id": "3",
+		"question": "Laughing Out",
+		"answer": "Loud"
+	},
+	{
+		"id": "4",
+		"question": "A tasty reward given to well behaved dogs and kids",
+		"answer": "Treat"
+	},
+	{
+		"id": "5",
+		"question": "A caribbean shape that makes ships disappear",
+		"answer": "Triangle"
+	},
+	{
+		"id": "6",
+		"question": "It takes two people to do this",
+		"answer": "Tango"
+	},
+	{
+		"id": "7",
+		"question": "What has a face and two hands but no arms or legs?",
+		"answer": "Clock"
+	},
+	{
+		"id": "8",
+		"question": "What five-letter word becomes shorter when you add two letters to it?",
+		"answer": "Short"
+	},
+	{
+		"id": "9",
+		"question": "What word begins and ends with an 'E' but only has one letter?",
+		"answer": "Envelope"
+	},
+	{
+		"id": "10",
+		"question": "What has a neck but no head?",
+		"answer": "Bottle"
+	},
+	{
+		"id": "11",
+		"question": "What type of cheese is made backwards?",
+		"answer": "Edam"
+	},
+	{
+		"id": "12",
+		"question": "What gets wetter as it dries?",
+		"answer": "Towel"
+	},
+	{
+		"id": "13",
+		"question": "Which letter of the alphabet has the most water?",
+		"answer": "C"
+	},
+	{
+		"id": "14",
+		"question": "What starts with a 'P', ends with an 'E' and has thousands of letters?",
+		"answer": "Post Office"
+	},
+	{
+		"id": "15",
+		"question": "What has to be broken before you can eat it?",
+		"answer": "Egg"
+	},
+	{
+		"id": "16",
+		"question": "What begins with T, ends with T and has T in it?",
+		"answer": "Teapot"
+	},
+	{
+		"id": "17",
+		"question": "Teddy bears are never hungry because they are always what?",
+		"answer": "Stuffed"
+	},
+	{
+		"id": "18",
+		"question": "What belongs to you but others use it more than you do?",
+		"answer": "Name"
+	},
+	{
+		"id": "19",
+		"question": "The more you take aways, the larger it becomes? What is it?",
+		"answer": "Hole"
+	},
+	{
+		"id": "20",
+		"question": "What is full of holes, but can still hold a lot of water?",
+		"answer": "Sponge"
+	},
+	{
+		"id": "21",
+		"question": "Where do fish keep their money?",
+		"answer": "Riverbank"
+	},
+	{
+		"id": "22",
+		"question": "What do you get when you cross an automobile with a household animal?",
+		"answer": "Carpet"
+	},
+	{
+		"id": "23",
+		"question": "Mary's father has 4 children; three are named Nana, Nene, and Nini. So what is the 4th child's name?",
+		"answer": "Mary"
+	},
+	{
+		"id": "24",
+		"question": "What bone has a sense of humor?",
+		"answer": "Humorous"
+	},
+	{
+		"id": "25",
+		"question": "The more of them you take, the more you leave behind. What are they?",
+		"answer": "Footsteps"
+	},
+	{
+		"id": "26",
+		"question": "What is that you will break everytime you name it?",
+		"answer": "Silence"
+	},
+	{
+		"id": "27",
+		"question": "What has four fingers and one thumb, but is not alive?",
+		"answer": "Glove"
+	},
+	{
+		"id": "28",
+		"question": "What flies without wings?",
+		"answer": "Time"
+	},
+	{
+		"id": "29",
+		"question": "What turns everything around, but does not move?",
+		"answer": "Mirror"
+	},
+	{
+		"id": "30",
+		"question": "What is half of two plus two?",
+		"answer": "Three"
+	},
+	{
+		"id": "31",
+		"question": "What word looks the same upside down and backwards?",
+		"answer": "Swims"
+	},
+	{
+		"id": "32",
+		"question": "What kind of fish chases a mouse?",
+		"answer": "Catfish"
+	},
+	{
+		"id": "33",
+		"question": "Your mother's brother's only brother-in-law is asleep on your coach. Who is asleep on your couch?",
+		"answer": "Dad"
+	},
+	{
+		"id": "34",
+		"question": "What's the difference between here and there?",
+		"answer": "T"
+	},
+	{
+		"id": "35",
+		"question": "What goes up and down without moving?",
+		"answer": "Stairs"
+	},
+	{
+		"id": "36",
+		"question": "Take off my skin and I won't cry, but you will, What am I?",
+		"answer": "Onion"
+	},
+	{
+		"id": "37",
+		"question": "What doesn't get any wetter, no matter how much rain falls on it?",
+		"answer": "Water"
+	},
+	{
+		"id": "38",
+		"question": "What sits in a corner while traveling all around the world?",
+		"answer": "Stamp"
+	},
+	{
+		"id": "39",
+		"question": "I have a face, two arms, and two hands, yet I can not move. I count to twelve, yet I can not speak. I can still tell you something everyday.",
+		"answer": "Clock"
+	},
+	{
+		"id": "40",
+		"question": "You enter a dark room. You have only one match. There is an oil lamp, a furnace, and a stove in the room. Which would you light first?",
+		"answer": "Match"
+	},
+	{
+		"id": "41",
+		"question": "What is round on both ends and hi in the middle?",
+		"answer": "Ohio"
+	},
+	{
+		"id": "42",
+		"question": "What do you call a dog that sweats so much?",
+		"answer": "Hotdog"
+	},
+	{
+		"id": "43",
+		"question": "What do you call a rabbit with fleas?",
+		"answer": "Bugs Bunny"
+	},
+	{
+		"id": "44",
+		"question": "What rains at the north pole?",
+		"answer": "Reindeer"
+	},
+	{
+		"id": "45",
+		"question": "What kind of apple has a short temper?",
+		"answer": "Crabapple"
+	},
+	{
+		"id": "46",
+		"question": "What do you do with a dead chemist?",
+		"answer": "Barium"
+	},
+	{
+		"id": "47",
+		"question": "What calls for help, when written in capital letters, is the same forwards, backwards and upside down?",
+		"answer": "SOS"
+	},
+	{
+		"id": "48",
+		"question": "What body part is pronounced as one letter but written with three, only two different letters are used?",
+		"answer": "Eye"
+	},
+	{
+		"id": "49",
+		"question": "What is 2+2? What is 4+4? What is 8+8? What is 16+16? Pick a number between 12 and 5",
+		"answer": "Seven"
+	},
+	{
+		"id": "50",
+		"question": "Feed me and I live, give me something to drink and i'll die, What am I?",
+		"answer": "Fire"
+	},
+	{
+		"id": "51",
+		"question": "What keeps things green and keeps kids occupied in the summertime?",
+		"answer": "Sprinkler"
+	},
+	{
+		"id": "52",
+		"question": "Old Mcdonald had this",
+		"answer": "Farm"
+	},
+	{
+		"id": "53",
+		"question": "Poorly behaved children often find themselves sitting in these",
+		"answer": "Corner"
+	},
+	{
+		"id": "54",
+		"question": "Brings you may flowers",
+		"answer": "Showers"
+	},
+	{
+		"id": "55",
+		"question": "A shower that lights up the sky",
+		"answer": "Meteor"
+	},
+	{
+		"id": "56",
+		"question": "Longer than a decade and shorter than a milennium",
+		"answer": "Century"
+	},
+	{
+		"id": "57",
+		"question": "Rolling on floor",
+		"answer": "Laughing"
+	},
+	{
+		"id": "58",
+		"question": "There are four of these, but everyone's favourite seems to be spades",
+		"answer": "Ace"
+	},
+	{
+		"id": "59",
+		"question": "Rabbits do this to carrots and Jason Mraz does this to ears",
+		"answer": "Nibble"
+	},
+	{
+		"id": "60",
+		"question": "These minerals are vital to your health",
+		"answer": "Vitamin"
+	},
+	{
+		"id": "61",
+		"question": "Commits friendly home invasions one night a year",
+		"answer": "Santa claus"
+	},
+	{
+		"id": "62",
+		"question": "Treats said to be based on a shephero's staff",
+		"answer": "Candy cane"
+	},
+	{
+		"id": "63",
+		"question": "Everyone claims to know a way to stop these involuntary contractions but none of them work",
+		"answer": "Hiccup"
+	},
+	{
+		"id": "64",
+		"question": "Has 4 lucky leaves",
+		"answer": "Shamrock"
+	},
+	{
+		"id": "65",
+		"question": "One of the best things you can hope for after whacking a ball with a stick",
+		"answer": "Home run"
+	},
+	{
+		"id": "66",
+		"question": "They put the heat in pop tarts",
+		"answer": "Toaster"
+	},
+	{
+		"id": "67",
+		"question": "What has a ring, but no finger?",
+		"answer": "Telephone"
+	},
+	{
+		"id": "68",
+		"question": "What has four legs, but can't walk?",
+		"answer": "Table"
+	},
+	{
+		"id": "69",
+		"question": "What is higher without the head, than with it?",
+		"answer": "Pillow"
+	},
+	{
+		"id": "70",
+		"question": "What is harder to catch the faster you run?",
+		"answer": "Breath"
+	},
+	{
+		"id": "71",
+		"question": "What invention lets you look right through a wall?",
+		"answer": "Window"
+	},
+	{
+		"id": "72",
+		"question": "What is that you will break everytime you name it?",
+		"answer": "Silence"
+	},
+	{
+		"id": "73",
+		"question": "What is made of wood, but can't be sawed?",
+		"answer": "Sawdust"
+	},
+	{
+		"id": "74",
+		"question": "What is a witch's favorite school subject?",
+		"answer": "Spelling"
+	},
+	{
+		"id": "75",
+		"question": "What is an aliens favourite sport?",
+		"answer": "Spaceball"
+	},
+	{
+		"id": "76",
+		"question": "What is the saddest fruit?",
+		"answer": "Blueberry"
+	},
+	{
+		"id": "77",
+		"question": "What is black and white and read all over?",
+		"answer": "Newspaper"
+	},
+	{
+		"id": "78",
+		"question": "What is easy to get into, and hard to get out of?",
+		"answer": "Trouble"
+	},
+	{
+		"id": "79",
+		"question": "What is there more of the less you see?",
+		"answer": "Darkness"
+	},
+	{
+		"id": "80",
+		"question": "If two hours ago, it was as long after one o'clock in the afternoon as it was before one o'clock in the morning, what time would it be now?",
+		"answer": "Nine"
+	},
+	{
+		"id": "81",
+		"question": "What is as big as you are and yet does not weigh anything?",
+		"answer": "Shadow"
+	},
+	{
+		"id": "82",
+		"question": "What types of words are these: Madam, Civic, Eye, Level?",
+		"answer": "Palindrome"
+	},
+	{
+		"id": "83",
+		"question": "When you have me, you feel like sharing me. But, if you do share me, you don't have me. What am I?",
+		"answer": "Secret"
+	},
+	{
+		"id": "84",
+		"question": "The person who makes it has no need for it. The person who purchases it does not use it. The person who does use it does not know he or she is. What is it?",
+		"answer": "Coffin"
+	},
+	{
+		"id": "85",
+		"question": "It is an insect, and the first part of its name is the name of another insect. What is it?",
+		"answer": "Beetle"
+	},
+	{
+		"id": "86",
+		"question": "What english word retains the same pronunciation, even after you take away four of its five letters?",
+		"answer": "Queue"
+	},
+	{
+		"id": "87",
+		"question": "What becomes white when it is dirty?",
+		"answer": "Blackboard"
+	},
+	{
+		"id": "88",
+		"question": "What word of five letters has only one left when two letters are removed?",
+		"answer": "Stone"
+	},
+	{
+		"id": "89",
+		"question": "How many 9's are there between 1 and 100?",
+		"answer": "Twenty"
+	},
+	{
+		"id": "90",
+		"question": "Which vehicle is spelled the same forwards and backwards?",
+		"answer": "Racecar"
+	},
+	{
+		"id": "91",
+		"question": "I am lighter than air but a million men cannot lift me up, What am I?",
+		"answer": "Bubble"
+	},
+	{
+		"id": "92",
+		"question": "Five men were eating apples, a finished before B, but behind C. D finished before E, but behind B. What was the finishing order?",
+		"answer": "CABDE"
+	},
+	{
+		"id": "93",
+		"question": "David's father has three sons: Snap, Crackle, and ?",
+		"answer": "David"
+	},
+	{
+		"id": "94",
+		"question": "It is everything to someone, and nothing to everyone else. What is it?",
+		"answer": "Mind"
+	},
+	{
+		"id": "95",
+		"question": "What has a mouth but can't chew?",
+		"answer": "River"
+	},
+	{
+		"id": "96",
+		"question": "If it is two hours later, then it will take half as much time till it's midnight as it would be if it were an hour later. What time is it?",
+		"answer": "Nine"
+	},
+	{
+		"id": "97",
+		"question": "Forward I am heavy, backwards I am not. What am I?",
+		"answer": "Ton"
+	},
+	{
+		"id": "98",
+		"question": "What object has keys that open no locks, space but no room, and you can enter but not go in?",
+		"answer": "Keyboard"
+	},
+	{
+		"id": "99",
+		"question": "What question can you never answer yes to?",
+		"answer": "Are you asleep yet?"
+	},
+	{
+		"id": "100",
+		"question": "What goes up but never comes down?",
+		"answer": "Your age"
+	},
+	{
+		"id": "101",
+		"question": "What has one eye, but can’t see?",
+		"answer": "A needle"
+	},
+	{
+		"id": "102",
+		"question": "Before Mt. Everest was discovered, what was the highest mountain in the world?",
+		"answer": "Mt. Everest, it just wasn’t discovered yet"
+	},
+	{
+		"id": "103",
+		"question": "What is the end of everything?",
+		"answer": "Letter 'G'"
+	},
+	{
+		"id": "104",
+		"question": "What part of the chicken has the most feathers?",
+		"answer": "The outside"
+	},
+	{
+		"id": "105",
+		"question": "What is red and smells like blue paint?",
+		"answer": "Red paint"
+	},
+	{
+		"id": "106",
+		"question": "Two in a corner, one in a room, zero in a house, but one in a shelter. What am I?",
+		"answer": "Letter 'R'"
+	},
+	{
+		"id": "107",
+		"question": "A plane crashed between the border of France and Belgium. Where were the survivors buried?",
+		"answer": "Nowhere. Survivors don’t need to be buried."
+	},
+	{
+		"id": "108",
+		"question": "Poor people have it. Rich people need it. If you eat it you die. What is it?",
+		"answer": "Nothing"
+	},
+	{
+		"id": "109",
+		"question": "What runs, but never walks. Murmurs, but never talks. Has a bed, but never sleeps. And has a mouth, but never eats?",
+		"answer": "A river"
+	},
+	{
+		"id": "110",
+		"question": "I have cities, but no houses. I have mountains, but no trees. I have water, but no fish. What am I?",
+		"answer": "A map"
+	},
+	{
+		"id": "111",
+		"question": "I have branches, but no fruit, trunk, or leaves. What am I?",
+		"answer": "Bank"
+	},
+	{
+		"id": "112",
+		"question": "Which is heavier: a ton of bricks or a ton of feathers?",
+		"answer": "They weigh the same"
+	},
+	{
+		"id": "113",
+		"question": "What do you throw out when you want to use it but take in when you don’t want to use it?",
+		"answer": "An anchor"
+	},
+	{
+		"id": "114",
+		"question": "You see me once in June, twice in November, and not at all in May. What am I?",
+		"answer": "Letter 'E"
+	},
+	{
+		"id": "115",
+		"question": "What building has the most stories?",
+		"answer": "The library"
+	},
+	{
+		"id": "116",
+		"question": "What has many hearts but no other organs?",
+		"answer": "A deck of cards"
+	},
+	{
+		"id": "117",
+		"question": "What can fill a room but takes up no space?",
+		"answer": "Light"
+	},
+	{
+		"id": "118",
+		"question": "What breaks yet never falls, and what falls yet never breaks?",
+		"answer": "Day and night"
+	},
+	{
+		"id": "119",
+		"question": "What goes through cities and fields, but never moves?",
+		"answer": "A road"
+	},
+	{
+		"id": "120",
+		"question": "Who is that with a neck and no head, two arms and no hands?",
+		"answer": "A shirt"
+	},
+	{
+		"id": "121",
+		"question": "If 11 plus two equals one, what does nine plus five equal?",
+		"answer": "11 a.m. plus two hours = 1 p.m., 9 a.m. plus five hours = 2 p.m."
+	},
+	{
+		"id": "122",
+		"question": "Can you write down eight eights so that they add up to one thousand?",
+		"answer": "888 + 88 + 8 + 8 + 8 = 1,000"
+	},
+	{
+		"id": "123",
+		"question": "What common English verb becomes its own past tense by ",
+		"answer": "Eat and ate"
+	},
+	{
+		"id": "124",
+		"question": "It’s shorter than the rest, but when you’re happy, you raise it up like it’s the best. What is it?",
+		"answer": "A thumb"
+	},
+	{
+		"id": "125",
+		"question": "What has a tail and a head but no body?",
+		"answer": "A coin"
+	},
+	{
+		"id": "126",
+		"question": "I am an odd number. Take away a letter and I become even. What number am I?",
+		"answer": "Seven"
+	},
+	{
+		"id": "127",
+		"question": "If a red house is made of red bricks, and a yellow house is made of yellow bricks, what is a greenhouse made of?",
+		"answer": "All greenhouses are made of glass"
+	},
+	{
+		"id": "128",
+		"question": "What can never be put in a saucepan?",
+		"answer": "It’s lid"
+	},
+	{
+		"id": "129",
+		"question": "You go at red and stop at green. What am I?",
+		"answer": "A watermelon"
+	},
+	{
+		"id": "130",
+		"question": "An electric train is headed east. Where does the smoke go?",
+		"answer": "Electric trains don’t produce any smoke!"
+	},
+	{
+		"id": "131",
+		"question": "What do you answer even though it never asks you questions? ",
+		"answer": "A doorbell or a phone"
+	},
+	{
+		"id": "132",
+		"question": "How can you drop a raw egg from a height onto a concrete floor without cracking it? ",
+		"answer": "Concrete floors are very hard to crack"
+	},
+	{
+		"id": "133",
+		"question": "Which of the following is the largest? Triangle, circle, square, or rectangle?",
+		"answer": "Rectangle, it has the most letters"
+	},
+	{
+		"id": "134",
+		"question": "I come from a mine and get surrounded by wood always. Everyone uses me. What am I?",
+		"answer": "Pencil lead"
+	},
+	{
+		"id": "135",
+		"question": "If you are running a race, and you pass the person in second, what place are you in?",
+		"answer": "Second place"
+	},
+	{
+		"id": "136",
+		"question": "People make me, save me, change me, raise me. What am I?",
+		"answer": "Money"
+	},
+	{
+		"id": "136",
+		"question": "When does Christmas come before Thanksgiving?",
+		"answer": "In the dictionary"
+	},
+	{
+		"id": "137",
+		"question": "I have a head like a cat and feet like a cat, but I am not a cat. What am I?",
+		"answer": "A kitten"
+	},
+	{
+		"id": "138",
+		"question": " I have no life, but I can die. What am I?",
+		"answer": "A battery"
+	},
+	{
+		"id": "139",
+		"question": "What word is spelled wrong in every dictionary?",
+		"answer": "Wrong"
+	},
+	{
+		"id": "140",
+		"question": "I shrink smaller every time I take a bath. What am I?",
+		"answer": "Soap"
+	},
+	{
+		"id": "141",
+		"question": "What cruel person would sit on a baby?",
+		"answer": "Babysitter"
+	},
+	{
+		"id": "142",
+		"question": "How many bananas can you eat if your stomach is empty?",
+		"answer": "Just one after that it’s not empty anymore"
+	},
+	{
+		"id": "143",
+		"question": "Turn me on my side and I am everything. Cut me in half and I am nothing. What am I?",
+		"answer": "The number 8 on its side"
+	},
+	{
+		"id": "144",
+		"question": "Which two keys cannot open any doors?",
+		"answer": "Monkeys and donkeys"
+	},
+	{
+		"id": "145",
+		"question": "I am a word of letters three, add two and fewer there will be. What am I?",
+		"answer": "Few"
+	},
+	{
+		"id": "146",
+		"question": "Which band never plays music?",
+		"answer": "A rubber band"
+	},
+	{
+		"id": "147",
+		"question": "Why don’t lobsters share?",
+		"answer": "They’re shellfish!"
+	},
+	{
+		"id": "148",
+		"question": "What is at the end of a rainbow?",
+		"answer": "W"
+	},
+	{
+		"id": "149",
+		"question": "When should you give elephant milk to a baby?",
+		"answer": "When the baby is an elephant"
+	},
+	{
+		"id": "150",
+		"question": "What is black, white, and read all over?",
+		"answer": "A newspaper"
+	},
+	{
+		"id": "151",
+		"question": "How many bricks does it take to complete a building made from bricks?",
+		"answer": "One – the last brick"
+	},
+	{
+		"id": "152",
+		"question": "What bird can lift the most?",
+		"answer": "A crane"
+	},
+	{
+		"id": "153",
+		"question": "A boy fell off a 100-foot ladder. But he did not get hurt. Why not?",
+		"answer": "He was only on the first step"
+	},
+	{
+		"id": "154",
+		"question": "I run, yet I have no legs. What am I?",
+		"answer": "A nose"
+	},
+	{
+		"id": "155",
+		"question": "What can you catch but never throw?",
+		"answer": "Cold"
+	},
+	{
+		"id": "156",
+		"question": "I fly all day long, but I do not go anywhere. What am I?",
+		"answer": "I am a flag"
+	},
+	{
+		"id": "157",
+		"question": "How many sides does a circle have?",
+		"answer": "2–the inside and the outside!"
+	},
+	{
+		"id": "158",
+		"question": "Eggs are $0.12 a dozen. How many eggs can you get for a dollar?",
+		"answer": "100 eggs, at one penny each"
+	},
+	{
+		"id": "159",
+		"question": "If you multiply this number by any other number, the answer will always be the same. What number is this?",
+		"answer": "0 (Zero)"
+	},
+	{
+		"id": "160",
+		"question": "I am a 2-digit number. I am more than 6 + 6 and less than 8 + 8. What number am I? (Clue: I am even.)",
+		"answer": "14"
+	}
+]

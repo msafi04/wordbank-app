@@ -1,0 +1,31 @@
+<!-- templates/dictionary/dict_view.html -->
+
+<html lang="en">
+    {% extends 'base.html' %}
+
+    {% block title %}Dictionary{% endblock %}
+    {% block content %}
+        <div class="container my-5">
+            <h1 class="text-center text-muted">
+                English Dictionary using Django
+            </h1>
+            <div class="row mt-5">
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-8">
+                    <form class="form-inline my-2 my-lg-0" method=GET action="{% url 'dictionary/dict_result' %}">
+                        <div class="input-group mb-3">
+                            {% csrf_token %}
+                            <span class="input-group-text" id="basic-addon3">Search Dictionary</span>
+                            <input type="text" class="form-control" name="search_query" id="basic-url" size="70" aria-describedby="inputGroup-sizing-default">
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary btn-block" style="width:710px;height:40px" type="submit">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    {% endblock %}
+</html>

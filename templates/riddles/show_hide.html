@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- jQuery CDN link. -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+    </script>
+  </head>
+  
+  <body>
+    <button id="btn">Hide</button>
+  
+    <p><b>SHOW_HIDE</b></p>
+  
+    <!-- Using hide() method to hide <p/> element. -->
+    <script>
+      $(document).ready(function () {
+        $("#btn").click(function () {
+          $("p").toggle();
+        });
+      });
+    </script>
+
+    <button onclick="myFunc()">Click it</button>
+    <script>
+      function myFunc(){
+        alert("This is an alert")
+      }
+    </script>
+  </body>
+</html>

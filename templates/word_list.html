@@ -1,0 +1,79 @@
+<!-- templates/word_list.html -->
+
+{% extends 'base.html' %}
+
+{% block title %}My Word Bank{% endblock title %}
+
+{% block content %}
+<style>
+    table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    }
+    table caption {
+        line-height: 0;
+        text-align: left;
+    }
+    th {
+        background-color: #04AA6D;
+        color: white;
+    }
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: center;
+        padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #f2f2f2;;
+    }
+    .container{
+        width: 60%;
+        text-align: center;
+        }
+</style>
+<div class="row">
+    <table>
+        <tr>
+            <th rowspan="1" colspan="4">My Word Bank</th>
+        </tr>
+        <tr>
+            <th rowspan="2" colspan="1">S. No.</th>
+            <th rowspan="2" colspan="1">Words</th>
+            <th rowspan="2" colspan="1">Meaning</th>
+            <th rowspan="2" colspan="1">Created On</th>
+        </tr>
+        {% for word in object_list %}
+        <tr></tr>
+        <tr>
+            <td>{{ page_obj.start_index|add:forloop.counter0}}</td>
+            <td><a href="{% url 'word_detail' word.pk %}">{{ word.title.title }}</a></td>
+            <td>{{ word.body }}</td>
+            <td><span class="text-muted">{{ word.date }}</span></td>
+        </tr>
+    <br />
+    {% endfor %}
+    </table>
+     <!-- Pagination -->
+    {% if is_paginated %}
+        <div class="container">
+            <ul>
+                {% if page_obj.has_previous %}
+                    <a href='{% url "word_list" %}?page={{ page_obj.previous_page_number }}'>Previous </a>
+                {% endif %}
+
+                <span class='mx-4'>
+                    Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}
+                    <span class="sr-only">(current)</span>
+                </span>
+
+                {% if page_obj.has_next %}
+                    <a href='{% url "word_list" %}?page={{ page_obj.next_page_number }}'> Next</a>
+                {% endif %}
+            </ul>
+        </div>
+    {% endif %}
+ <!-- END Pagination -->
+</div>
+{% endblock content %}

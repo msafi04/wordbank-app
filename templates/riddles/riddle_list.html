@@ -1,0 +1,53 @@
+<!-- templates/riddles/riddle_list.html -->
+
+<html lang="en">
+{% extends 'base.html' %}
+
+{% block title %}My Random Riddle Question{% endblock title %}
+
+{% block content %}
+<style>
+    table, th, td {
+      border: 3px solid black;
+      border-collapse: collapse;
+      text-align: center;
+      margin-left: 150px;
+      padding: 5px;
+    }
+    th, td {
+        background-color: #96D4D4;
+        text-align: center;
+    }
+    .container {
+        display: block;
+        justify-content: center;
+    }
+    .riddle-button {
+        text-align: center;
+    }
+</style>
+<body>
+<div class="justify-content">
+    <table style="width:70%">
+        <tr>
+            <th style="color:#5b0349">Riddle:</th>
+            <td><h4 style="color:#683205">{{ my_riddle.question }}</h4></td>
+        </tr>
+        <tr>
+            <td colspan="2"><a href="#" onclick="showAnswer()" style="color:#1b0296">Show Answer</a></td>
+        </tr>
+    </table>
+    <br />
+    <div class="riddle-button">
+        <a class="btn btn-primary btn-lg" href="{% url 'riddles/riddle_list' %}" role="button">Click for One More Riddle</a>
+        <!-- <a class="btn btn-primary" href="{{ request.get_full_path }}">ReClick for One More Riddle</a>  ---RELOAD current page -->
+    </div>
+</div>
+<script type="text/javascript">
+    function showAnswer(){
+        alert("Answer: {{ my_riddle.answer }}");
+    }
+</script>
+{% endblock %}
+</body>
+</html>

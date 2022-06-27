@@ -1,0 +1,43 @@
+<!-- templates/riddles/riddle_answer.html -->
+
+{% extends 'base.html' %}
+
+{% block title %}My Random Riddle Answer{% endblock title %}
+
+{% block content %}
+<style>
+    table, th, td {
+      border: 3px solid black;
+      border-collapse: collapse;
+      text-align: center;
+      padding: 5px;
+    }
+    th, td {
+        background-color: #96D4D4;
+        text-align: center;
+    }
+    .container {
+        display: block;
+        justify-content: center;
+    }
+</style>
+
+<div class="justify-content">
+    <table style="width:80%">
+        <tr>
+            <th style="color:#5b0349">Riddle:</th>
+            <td><h2 style="color:#683205">{{ object_list.question }}</h2></td>
+        </tr>
+        <tr>
+             <th style="color:#7425a8">Answer:</th>
+             <td colspan="1" style="color:#7425a8"><p><h2>{{ object_list.answer }}</h2></p></td> 
+            <!-- <td colspan="2"><a class="btn btn-default btn-lg" href="#" role="button">Answer</a></td> -->
+        </tr>
+    </table>
+    <br />
+    <p>
+        <a style="width:888px" class="btn btn-primary btn-lg" href="{% url 'riddles/riddle_list' %}" role="button">Click for One More Riddle</a>
+        <!-- <a class="btn btn-primary" href="{{ request.get_full_path }}">ReClick for One More Riddleload</a>  ---RELOAD current page -->
+    </p>
+</div>
+{% endblock %}
